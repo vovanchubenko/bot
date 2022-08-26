@@ -44,7 +44,7 @@ class UserStates(Helper):
 
     
 main_menu = ReplyKeyboardMarkup(resize_keyboard = True)
-main_menu.add('✔️ Подписаться на канал', '➕ Получить подписчиков')
+main_menu.add('✔️ Подписат на канал', '➕ Получить подписчиков')
 main_menu.add('👤 Профиль', '👣 Партнёрская программа')
 
 admin_menu = InlineKeyboardMarkup()
